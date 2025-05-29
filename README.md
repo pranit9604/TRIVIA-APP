@@ -10,6 +10,7 @@ A responsive trivia web app built with React that provides fun facts about gener
 📌 Features
 
 ✅ Core Requirements (As per Assignment)
+
 🧮 Three input fields: General Number, Date (MM-DD or YYYY-MM-DD), Math Number
 
 ⚡ Instant trivia shown as user types
