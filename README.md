@@ -1,8 +1,15 @@
 🔢 Trivia – Facts App
+
+
+
+
 A responsive trivia app that fetches fun facts about numbers, dates, and math expressions using the Numbers API. Built with React and enhanced with modern UI, input validation, and a favorites system using localStorage.
 
 📌 Features
+
+
 ✅ Core Requirements (As per Assignment)
+
 🧮 Three input fields
 
 General Number
@@ -11,9 +18,13 @@ Date (supports MM-DD or YYYY-MM-DD formats)
 
 Math Number
 
+
+
 ⚡ Instant Trivia Fetching
 
 Trivia is shown immediately as you type (with debounce handling)
+
+
 
 🔎 Input Validation
 
@@ -23,17 +34,25 @@ Dates must follow valid formats
 
 Prevents API calls for invalid or empty input
 
+
+
 📱 Fully Responsive UI
 
 Works seamlessly on mobile, tablet, and desktop
+
+
 
 🧪 Test Case Coverage
 
 All described input scenarios tested (valid/invalid/edge cases)
 
+
+
 💨 Smooth Experience
 
 Clean fetch handling with minimal delay
+
+
 
 🔥 Additional Features Added
 
@@ -46,11 +65,18 @@ Delete individual favorites
 
 Floating badge icon shows saved trivia count
 
+
+
 🧩 Favorites Filtering
 Filter favorites by type: General, Math, or Date
 
+
+
 🏷️ Icons & Labels
+
 Trivia entries are visually tagged by their category
+
+
 
 ✨ Modern UI/UX
 Glassmorphism cards and smooth hover effects
@@ -59,6 +85,8 @@ Floating favorites button for easy access
 
 Stylish layout with subtle shadows and transitions
 
+
+
 🧼 Polished User Experience
 
 Input clear buttons 
@@ -66,6 +94,8 @@ Input clear buttons
 Handles empty/error states cleanly
 
 Balanced spacing and clean typography
+
+
 
 🛠️ Tech Stack
 
@@ -113,14 +143,4 @@ src/
 ├── index.js
 ├── index.css
 └── setup.tests.js
-🏁 Summary Table
-Requirement	✅ Status	Notes
-3 Inputs	✅	General, Date, and Math
-Trivia on Input	✅	Instant fetch and render
-Input Validation	✅	All edge cases covered
-Responsive UI	✅	Flexbox + Media Queries
-Test Case Coverage	✅	Full assignment coverage
-Favorites Bookmarking	✅ Extra	Saves + badge + delete
-Favorites Filtering	✅ Extra	Filter by trivia type
-Icons/Labels	✅ Extra	Visual distinction per trivia type
-Modern UI/UX	✅ Extra	Glassmorphism, hover effects, floating UI
+
