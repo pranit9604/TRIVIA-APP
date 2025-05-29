@@ -5,6 +5,7 @@ import MathInput from "./components/MathInput";
 import TriviaPanel from "./components/TriviaPanel";
 import "./styles/App.css";
 
+// Main App component
 function App() {
   const [number, setNumber] = useState("");
   const [date, setDate] = useState("");

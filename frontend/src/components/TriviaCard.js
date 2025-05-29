@@ -8,6 +8,7 @@ import {
 } from "react-icons/fa";
 import "../styles/TriviaCard.css";
 
+// Maps type to the correct icon
 const iconMap = {
   date: <FaCalendarAlt size={32} color="#4e91fc" />,
   math: <FaCalculator size={32} color="#fca14e" />,
@@ -15,6 +16,7 @@ const iconMap = {
   number: <FaLightbulb size={32} color="#ffd700" />,
 };
 
+// Capitalizes the first letter of a string
 function capitalize(str) {
   if (!str) return "";
   return str.charAt(0).toUpperCase() + str.slice(1);

@@ -6,10 +6,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
-  /* Optional: background and color for fallback */
-  /* background: #f8fafc; */
-  /* color: #222; */
-  /* min-height: 100vh; */
 }
 
 *,

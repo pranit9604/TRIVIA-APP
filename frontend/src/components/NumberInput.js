@@ -1,11 +1,13 @@
 import React, { useState, useEffect, useCallback } from "react";
 import debounce from "lodash.debounce";
-import "../styles/NumberInput.css"; // Use the shared card style
+import "../styles/NumberInput.css";
 
+// Only allows positive integer input
 function NumberInput({ value, onChange }) {
   const [input, setInput] = useState(value || "");
   const [error, setError] = useState("");
 
+  // Debounced validation for input
   const validateAndChange = useCallback(
     debounce((val) => {
       if (val === "") {

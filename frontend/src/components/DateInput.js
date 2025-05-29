@@ -2,14 +2,12 @@ import React, { useState, useEffect, useCallback } from "react";
 import debounce from "lodash.debounce";
 import "../styles/DateInput.css";
 
+// Checks if the input is a valid date in MM-DD or YYYY-MM-DD format
 function isValidDate(str) {
-  // MM-DD
   if (/^\d{2}-\d{2}$/.test(str)) {
     const [month, day] = str.split("-").map(Number);
     return month >= 1 && month <= 12 && day >= 1 && day <= 31;
   }
-
-  // YYYY-MM-DD
   if (/^\d{4}-\d{2}-\d{2}$/.test(str)) {
     const [year, month, day] = str.split("-").map(Number);
     if (month < 1 || month > 12 || day < 1 || day > 31) return false;
@@ -27,6 +25,7 @@ function DateInput({ value, onChange }) {
   const [input, setInput] = useState(value || "");
   const [error, setError] = useState("");
 
+  // Debounced validation for input
   const validateAndChange = useCallback(
     debounce((val) => {
       if (val === "") {
