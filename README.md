@@ -26,7 +26,7 @@ A responsive trivia web app built with React that provides fun facts about gener
 
 
 
-******🔥 Additional Features Added******
+****🔥 Additional Features Added****
 
 
 
