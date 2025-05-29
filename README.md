@@ -57,7 +57,7 @@ A responsive and interactive trivia application built with **React + TypeScript*
 ## 🚀 Live Demo
 
 🌐 **Frontend (Netlify):** scintillating-tanuki-5165f7.netlify.app 
-📦 **GitHub Repo:** [[Simple-Poll on GitHub](https://github.com/pranit9604/Simple-Poll)](https://github.com/pranit9604/TRIVIA-APP)
+📦 **GitHub Repo:** [https://github.com/pranit9604/TRIVIA-APP]
 
 
 
