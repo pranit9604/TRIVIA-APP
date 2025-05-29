@@ -1,124 +1,83 @@
-🔢 Trivia – Facts App
+# 🎲 Trivia Fun Facts App
 
+A responsive and interactive trivia application built with **React + TypeScript**, powered by **numbersapi.com**. Instantly fetch trivia based on numbers, dates, or math inputs — with a modern UI and personalized experience.
 
-A responsive trivia web app built with React that provides fun facts about general numbers, dates, and math expressions using the Numbers API. It includes features like live trivia fetching, input validation, favorites management, and a modern UI/UX design.
+---
 
-🚀 Live Demo
+## ✅ Assignment Requirements Coverage
 
-📦 GitHub Repo: [NumVerse on GitHub](https://github.com/pranit9604/TRIVIA-APP)
+1. **Three Inputs**
+   - General Number, Date, and Math Number inputs.
+   - Components: `NumberInput`, `DateInput`, `MathInput`.
 
-📌 Features
+2. **Show Trivia Instantly**
+   - Real-time trivia display using `TriviaPanel`.
 
-✅ Core Requirements (As per Assignment)
+3. **Input Validations**
+   - Proper validation for all inputs with user-friendly error messages.
 
-🧮 Three input fields: General Number, Date (MM-DD or YYYY-MM-DD), Math Number
+4. **Responsive UI**
+   - Designed to adapt across mobile, tablet, and desktop using CSS in `App.css`.
 
-⚡ Instant trivia shown as user types
+5. **Test Cases**
+   - ✅ Unit tests for all core components (see `*.test.js` files in `frontend/src/components/`).
 
-🔎 Input validation for number and date formats
+---
 
-📱 Fully responsive UI (mobile, tablet, desktop)
+## 🔥 Additional Features
 
-🧪 Thoroughly tested against various input cases
+### ⭐ Favorites System
+- Bookmark trivia facts with one click.
+- Stored in `localStorage` to persist across sessions.
+- Remove individual items easily.
+- 🔔 Badge icon shows total favorite count.
 
-💨 Smooth API fetch handling with debounced input
+### 🔍 Favorites Filtering
+- Filter your saved facts by category:
+  - General
+  - Math
+  - Date
 
+### 🏷️ Icons & Labels
+- Each fact is visually tagged with an icon and label for easy recognition.
 
+### ✨ Modern UI/UX
+- Glassmorphism-styled cards
+- Smooth transitions, hover effects
+- Floating favorites button
 
+### 🎯 Polished User Experience
+- Graceful error and empty state handling
+- Clean layout, intuitive interaction
 
-****🔥 Additional Features Added****
+---
 
+## 🖼️ Screenshots
 
+You can add screenshots here to showcase your app UI. For example:
 
-⭐ Favorites System
+| Home View | Favorites Panel |
+|----------|----------------|
+| ![Home Screenshot](./screenshots/home.png) | ![Favorites Screenshot](./screenshots/favorites.png) |
 
-Bookmark trivia facts
+To add your own:
 
-Persist across reloads using localStorage
+1. Create a folder named `screenshots` in your project root.
+2. Save your image files (e.g., `home.png`, `favorites.png`) inside it.
+3. Push the folder to your GitHub repo.
+4. Use relative paths like `./screenshots/home.png` in the README.
 
-Delete individual items
+---
 
-Badge icon shows count of saved trivia
+## 🚀 Tech Stack
 
-🧩 Favorites Filtering
+- **Frontend**: React (TypeScript)
+- **Validation**: `yup`
+- **Date Handling**: `date-fns`
+- **UI Enhancements**: `framer-motion`, `@mui/icons-material`
+- **Utility**: `lodash.debounce`
 
-Filter saved facts by type: General, Math, or Date
+---
 
-🏷️ Icons & Labels
+## 📂 Project Structure Highlights
 
-Each trivia fact visually labeled by its category
-
-✨ Modern UI/UX
-
-Glassmorphism cards
-
-Shadows, transitions, and hover effects
-
-Floating favorites button
-
-🧼 Polished User Experience
-
-Input clear buttons
-
-Error and empty state handling
-
-Clean layout with well-spaced elements
-
-
-
-
-
-🛠️ Tech Stack
-Frontend: React , JavaScript , Css , Html
-
-Validation: Yup, date-fns
-
-UX Utilities: lodash.debounce
-
-Styling: CSS (Flexbox, Media Queries)
-
-Icons: React-Icons
-
-Storage: localStorage
-
-
-
-🧪 Unit Testing
-
-
-✅ Inputs tested for valid, invalid, and edge cases
-
-✅ Responsive behavior on mobile, tablet, and desktop
-
-✅ Supported scenarios: input modification, clear/reset, rapid typing
-
-![still-empty-bookmark-no-saved-file-concept-illustration-flat-design-eps10-modern-graphic-element-for-landing-page-empty-state-ui-infographic-icon-vector](https://github.com/user-attachments/assets/e5a85da5-1e8d-46f9-8f23-2ac5889bccc8)
-
-
-
-📂 Folder Structure
-
-
-Edit
-src/
-├── components/
-│   ├── DateInput.js
-│   ├── DateInput.test.js
-│   ├── MathInput.js
-│   ├── MathInput.test.js
-│   ├── NumberInput.js
-│   ├── NumberInput.test.js
-│   ├── TriviaCard.js
-│   ├── TriviaCard.test.js
-│   └── TriviaPanel.js
-│       └── TriviaPanel.test.js
-├── styles/
-│   ├── DateInput.css
-│   ├── MathInput.css
-│   ├── NumberInput.css
-│   ├── TriviaCard.css
-│   └── TriviaPanel.css
-├── App.js
-├── index.js
-├── index.css
-└── setup.tests.js
