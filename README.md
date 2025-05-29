@@ -52,13 +52,59 @@ A responsive and interactive trivia application built with **React + TypeScript*
 
 ---
 
-## 🖼️ Screenshots
+## 📸 Screenshots
 
-You can add screenshots here to showcase your app UI. For example:
+### 🧩 Initial Input Screen
+Clean, minimal, and beautifully spaced layout prompting the user to enter number-based trivia types.
+![Input Screen](./screenshots/2025-05-29%20(1).png)
 
-| Home View | Favorites Panel |
-|----------|----------------|
-| ![Home Screenshot](./screenshots/home.png) | ![Favorites Screenshot](./screenshots/favorites.png) |
+---
+
+### ⚡ Live Trivia Response
+Upon entering values, trivia cards dynamically appear with vibrant category icons and sleek animations.
+![Live Trivia Response](./screenshots/2025-05-29%20(2).png)
+
+---
+
+### 🎯 Focused Trivia Highlight
+Each trivia fact is presented in a glowing card with a clear icon and label, enhancing readability.
+![Focused Trivia](./screenshots/2025-05-29%20(3).png)
+
+---
+
+### 🔄 Scrollable Trivia Feed
+Multiple facts load below inputs, separated cleanly in a scroll-friendly layout for seamless exploration.
+![Scrollable Feed](./screenshots/2025-05-29%20(4).png)
+
+---
+
+### 💡 Floating Favorites Button
+Floating button with badge appears for saved trivia, gently guiding users to revisit their collected gems.
+![Favorites Button](./screenshots/2025-05-29%20(5).png)
+
+---
+
+### 📂 Favorites Panel (Modal)
+Opens a graceful overlay to view all saved facts, organized by type with delightful icons and delete options.
+![Favorites Panel](./screenshots/2025-05-29%20(6).png)
+
+---
+
+### 🧮 Filtered View – Math Trivia
+Filtered list showing only math-based trivia, styled in a soft gold palette for better focus.
+![Math Filter](./screenshots/2025-05-29%20(7).png)
+
+---
+
+### 🗂️ Filtered View – Empty State
+When no favorites exist in a category, a subtle and friendly "No favorites yet" message appears with an icon.
+![Empty Favorites](./screenshots/2025-05-29%20(9).png)
+
+---
+
+### ❌ Input Validation with Error Feedback
+Gracefully animated error messages appear with red highlights when invalid inputs are detected.
+![Validation Errors](./screenshots/2025-05-29%20(10).png)
 
 To add your own:
 
