@@ -23,7 +23,13 @@ A responsive trivia web app built with React that provides fun facts about gener
 
 💨 Smooth API fetch handling with debounced input
 
+
+
+
 🔥 Additional Features Added
+
+
+
 ⭐ Favorites System
 
 Bookmark trivia facts
@@ -58,8 +64,12 @@ Error and empty state handling
 
 Clean layout with well-spaced elements
 
+
+
+
+
 🛠️ Tech Stack
-Frontend: React (CRA), TypeScript
+Frontend: React , JavaScript , Css , Html
 
 Validation: Yup, date-fns
 
@@ -67,20 +77,27 @@ UX Utilities: lodash.debounce
 
 Styling: CSS (Flexbox, Media Queries)
 
-Icons: @mui/icons-material (optional)
+Icons: React-Icons
 
 Storage: localStorage
 
-🧪 Testing
+
+
+🧪 Unit Testing
+
+
 ✅ Inputs tested for valid, invalid, and edge cases
 
 ✅ Responsive behavior on mobile, tablet, and desktop
 
 ✅ Supported scenarios: input modification, clear/reset, rapid typing
 
+
+
+
 📂 Folder Structure
-pgsql
-Copy
+
+
 Edit
 src/
 ├── components/
