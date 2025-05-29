@@ -92,6 +92,7 @@ Storage: localStorage
 
 ✅ Supported scenarios: input modification, clear/reset, rapid typing
 
+![still-empty-bookmark-no-saved-file-concept-illustration-flat-design-eps10-modern-graphic-element-for-landing-page-empty-state-ui-infographic-icon-vector](https://github.com/user-attachments/assets/e5a85da5-1e8d-46f9-8f23-2ac5889bccc8)
 
 
 
