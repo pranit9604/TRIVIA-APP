@@ -1,0 +1,73 @@
+.input-card {
+  width: 320px;
+  min-height: 180px;
+  background: linear-gradient(120deg, #e0e7ff 60%, #c7d2fe 100%);
+  border-radius: 16px;
+  box-shadow: 0 2px 12px 0 rgba(60, 72, 88, 0.08);
+  padding: 1.2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.input-label {
+  font-weight: bold;
+  margin-bottom: 0.7rem;
+  color: #1976d2;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-size: 1.08rem;
+  display: block;
+  
+}
+
+.input-field {
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.92);
+  font-size: 1rem;
+  transition: border 0.2s, box-shadow 0.2s;
+  text-align: center;
+  margin-bottom: 0.2rem;
+}
+
+.input-field:hover,
+.input-field:focus {
+  border: 1.5px solid #1976d2;
+  background: #f0f7ff;
+}
+
+.input-error {
+  color: #f44336;
+  font-size: 0.97em;
+  margin-top: 0.25rem;
+  min-height: 1.2em;
+  display: block;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  animation: shake 0.18s 1;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .input-card {
+    width: 98vw;
+    max-width: 400px;
+    min-width: 0;
+    padding: 1rem 0.5rem;
+  }
+}
+
+@keyframes shake {
+  10%, 90% { transform: translateX(-1px); }
+  20%, 80% { transform: translateX(2px); }
+  30%, 50%, 70% { transform: translateX(-4px); }
+  40%, 60% { transform: translateX(4px); }
+}

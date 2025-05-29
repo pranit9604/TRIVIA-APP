@@ -1,0 +1,153 @@
+.trivia-panel-container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: stretch;
+  width: 100%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.favorites-section {
+  margin-top: 2rem;
+  background: #f8fafc;
+  border-radius: 12px;
+  padding: 1rem 1.5rem;
+  box-shadow: 0 2px 8px rgba(60, 72, 88, 0.08);
+  text-align: left;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.favorite-fact {
+  display: flex;
+  align-items: center;
+  gap: 24px;           /* Increased from 12px to 24px for more breathing room */
+  margin-bottom: 0.7rem;
+  font-size: 1.05rem;
+  color: #333;
+  word-break: break-word;
+  padding: 8px 0;      /* Increased vertical padding for extra space */
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+  transition: background 0.18s, box-shadow 0.20s;
+}
+.favorite-fact:hover {
+  background: #eeeee5;
+  box-shadow: 0 2px 8px rgba(193, 176, 136, 0.07);
+}
+
+.favorite-type-icon {
+  font-size: 1.3em;
+  min-width: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.favorite-type-label {
+  font-size: 0.98em;
+  color: #666;
+  min-width: 110px;
+  font-weight: 500;
+  margin-right: 8px;
+}
+.favorite-fact-text {
+  flex: 1;
+  margin-left: 0;
+}
+
+.delete-favorite-btn {
+  background: none;
+  border: none;
+  color: #f44336;
+  margin-left: 12px;
+  cursor: pointer;
+  vertical-align: middle;
+  padding: 2px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+.delete-favorite-btn:hover {
+  background: #ffeaea;
+}
+
+.favorites-toggle-btn {
+  position: fixed;
+  top: 24px;
+  right: 32px;
+  background: #fff;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(60,72,88,0.12);
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+}
+.favorites-toggle-btn:hover {
+  background: #fffbe7;
+}
+.favorites-badge {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: #f44336;
+  color: #fff;
+  font-size: 0.85em;
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 2px 2px;
+  min-width: 22px;
+  text-align: center;
+  box-shadow: 0 1px 4px rgba(60,72,88,0.18);
+  pointer-events: none;
+}
+
+.favorites-filter-bar {
+  display: flex;
+  gap: 28px;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+.favorites-filter-bar button {
+  background: #f5f5f5;
+  border: none;
+  border-radius: 20px;
+  padding: 6px 16px;
+  font-size: 1em;
+  cursor: pointer;
+  color: #444;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: background 0.2s, color 0.2s;
+}
+.favorites-filter-bar button.active,
+.favorites-filter-bar button:hover {
+  background: #816e29;
+  color: #fff;
+}
+
+@media (max-width: 900px) {
+  .trivia-panel-container,
+  .favorites-section {
+    max-width: 98vw;
+    gap: 1.2rem;
+  }
+}
+@media (max-width: 600px) {
+  .trivia-panel-container,
+  .favorites-section {
+    max-width: 99vw;
+    gap: 0.7rem;
+    padding: 0.5rem 0.2rem;
+  }
+}
